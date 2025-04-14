@@ -14,7 +14,7 @@
 
                 return Results.Ok(response);
             })
-                .WithName("UpdateeProduct")
+                .WithName("UpdateProduct")
                 .Produces<UpdateProductResponse>(StatusCodes.Status201Created)
                 .ProducesProblem(StatusCodes.Status400BadRequest)
                 .WithSummary("Update Product")
