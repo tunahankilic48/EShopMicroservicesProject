@@ -7,8 +7,6 @@
     {
         public async Task<CreateProductResult> Handle(CreateProductCommand command, CancellationToken cancellationToken)
         {
-            //ToDo: Business logic to create a product
-
             Product product = new Product
             {
                 Name = command.Name,
