@@ -1,5 +1,3 @@
-
-
 var builder = WebApplication.CreateBuilder(args);
 
 Assembly assembly = typeof(Program).Assembly;
@@ -12,11 +10,18 @@ builder.Services.AddMediatR(config =>
 });
 builder.Services.AddValidatorsFromAssembly(assembly);
 
+
 builder.Services.AddCarter();
+
+
 builder.Services.AddMarten(opts =>
 {
     opts.Connection(builder.Configuration.GetConnectionString("Database")!);
 }).UseLightweightSessions();
+
+if (builder.Environment.IsDevelopment())
+    builder.Services.InitializeMartenWith<CatalogInýtýalData>();
+
 
 builder.Services.AddExceptionHandler<CustomExceptionHandler>();
 
