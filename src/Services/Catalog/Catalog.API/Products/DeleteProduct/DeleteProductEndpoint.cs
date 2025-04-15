@@ -1,7 +1,4 @@
-﻿
-using Catalog.API.Products.UpdateProduct;
-
-namespace Catalog.API.Products.DeleteProduct
+﻿namespace Catalog.API.Products.DeleteProduct
 {
     //public record DeleteProductRequest(Guid Id) :ICommand<DeleteProductResult>;
     public record DeleteProductResponse(bool IsSuccess);
