@@ -11,3 +11,4 @@ global using Marten;
 global using MediatR;
 global using System.Reflection;
 global using Catalog.API.Data;
+global using Marten.Pagination;
