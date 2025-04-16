@@ -1,4 +1,8 @@
+using BuildingBlocks.Exceptions.Handler;
+
 var builder = WebApplication.CreateBuilder(args);
+
+
 Assembly assembly = typeof(Program).Assembly;
 
 builder.Services.AddMediatR(config =>
@@ -17,7 +21,10 @@ builder.Services.AddMarten(opts =>
 
 builder.Services.AddCarter();
 
+builder.Services.AddScoped<IBasketRepository, BasketRepository>();
+builder.Services.AddExceptionHandler<CustomExceptionHandler>();
+
 var app = builder.Build();
 app.MapCarter();
-
+app.UseExceptionHandler(options => { });
 app.Run();
