@@ -1,5 +1,3 @@
-
-
 var builder = WebApplication.CreateBuilder(args);
 Assembly assembly = typeof(Program).Assembly;
 
@@ -11,6 +9,11 @@ builder.Services.AddMediatR(config =>
 
 });
 
+builder.Services.AddMarten(opts =>
+{
+    opts.Connection(builder.Configuration.GetConnectionString("Database")!);
+    opts.Schema.For<ShoppingCart>().Identity(x => x.UserName);
+}).UseLightweightSessions();
 
 builder.Services.AddCarter();
 
