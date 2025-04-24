@@ -2,3 +2,5 @@
 global using Ordering.Application.DTOs;
 global using BuildingBlocks.CQRS;
 global using Ordering.Domain.Models;
+global using Ordering.Application.Data;
+global using Ordering.Domain.ValueObject;
