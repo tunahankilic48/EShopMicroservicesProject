@@ -1,7 +1,7 @@
 ﻿namespace Catalog.API.Products.CreateProduct
 {
     public record CreateProductRequest(string Name, List<string> Category, string Description, string ImageFile, decimal Price) : ICommand<CreateProductResult>;
-    public record CreateProductResponse(Guid id);
+    public record CreateProductResponse(Guid Id);
     public class CreateProductEndpoint : ICarterModule
     {
         public void AddRoutes(IEndpointRouteBuilder app)
@@ -12,7 +12,7 @@
                 CreateProductResult result = await sender.Send(command);
                 CreateProductResponse response = result.Adapt<CreateProductResponse>();
 
-                return Results.Created($"/products/{response.id}", response);
+                return Results.Created($"/products/{response.Id}", response);
             })
                 .WithName("CreateProduct")
                 .Produces<CreateProductResponse>(StatusCodes.Status201Created)
