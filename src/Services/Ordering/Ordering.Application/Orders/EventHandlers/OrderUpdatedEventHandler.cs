@@ -6,7 +6,7 @@
         {
 
             logger.LogInformation("Domain Event handlerd: {DomainEvent}", notification.GetType().Name);
-            throw new NotImplementedException();
+            return Task.CompletedTask;
         }
     }
 }
