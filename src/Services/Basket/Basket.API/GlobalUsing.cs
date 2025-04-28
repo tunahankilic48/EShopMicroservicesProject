@@ -11,3 +11,4 @@ global using MediatR;
 global using System.Reflection;
 global using Basket.API.Data;
 global using Discount.Grpc;
+global using Basket.API.Dtos;
