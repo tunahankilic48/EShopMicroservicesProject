@@ -9,7 +9,6 @@
         public string ImageFile { get; set; } = default!;
         public decimal Price { get; set; }
     }
-
     // Wrapped classes
     public record GetProductResponse(IEnumerable<ProductModel> Products);
     public record GetProductByCategoryResponse(IEnumerable<ProductModel> Products);
