@@ -10,7 +10,7 @@
         public decimal Price { get; set; }
     }
     // Wrapped classes
-    public record GetProductResponse(IEnumerable<ProductModel> Products);
-    public record GetProductByCategoryResponse(IEnumerable<ProductModel> Products);
+    public record GetProductsResponse(IEnumerable<ProductModel> Products);
+    public record GetProductsByCategoryResponse(IEnumerable<ProductModel> Products);
     public record GetProductByIdResponse(ProductModel Product);
 }
