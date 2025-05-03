@@ -12,16 +12,16 @@ namespace Shopping.Web.Pages
             return Page();
         }
 
-        public async Task<IActionResult> OnPostAddToCartAsync(Guid ProductId)
+        public async Task<IActionResult> OnPostAddToCartAsync(Guid productId)
         {
             logger.LogInformation("Add to cart button clicked");
 
-            GetProductByIdResponse productResponse = await catalogService.GetProduct(ProductId);
+            GetProductByIdResponse productResponse = await catalogService.GetProduct(productId);
             ShoppingCartModel basket = await basketService.LoadUserBasket();
 
             basket.Items.Add(new ShoppingCartItemModel
             {
-                ProductId = ProductId,
+                ProductId = productId,
                 ProductName = productResponse.Product.Name,
                 Price = productResponse.Product.Price,
                 Quantity = 1,
