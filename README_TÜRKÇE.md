@@ -9,7 +9,7 @@
 ## 🏛️ Kullanılan Mimariler
 
 - **[Katmanlı Miamari (Layered Architecture)](https://github.com/tunahankilic48/DICTIONARY-SOZLUK/blob/main/T%C3%9CRK%C3%87E/KatmanliMimari.md)**
-- **Domain Driven Design (DDD)**
+- **[Domain Driven Design (DDD)](https://github.com/tunahankilic48/DICTIONARY-SOZLUK/blob/main/T%C3%9CRK%C3%87E/DomainDrivenDesign.md)**
 - **Vertical Slice Architecture**
 - **Clean Architecture**
 
