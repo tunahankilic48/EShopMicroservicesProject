@@ -8,7 +8,7 @@
 
 ## 🏛️ Architectures
 
-- **Layered Architecture**
+- **[Layered Architecture](https://github.com/tunahankilic48/DICTIONARY-SOZLUK/blob/main/ENGLISH/LayeredArchitecture.md)**
 - **Domain Driven Design (DDD)**
 - **Vertical Slice Architecture**
 - **Clean Architecture**
