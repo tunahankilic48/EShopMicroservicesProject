@@ -10,7 +10,7 @@
 
 - **[Layered Architecture](https://github.com/tunahankilic48/DICTIONARY-SOZLUK/blob/main/ENGLISH/LayeredArchitecture.md)**
 - **[Domain Driven Design (DDD)](https://github.com/tunahankilic48/DICTIONARY-SOZLUK/blob/main/ENGLISH/DomainDrivenDesign.md)**
-- **Vertical Slice Architecture**
+- **[Vertical Slice Architecture](https://github.com/tunahankilic48/DICTIONARY-SOZLUK/blob/main/ENGLISH/VerticalSliceArchitecture.md)**
 - **Clean Architecture**
 
 ---
