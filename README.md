@@ -19,7 +19,7 @@
 
 - **[SOLID Principles](https://github.com/tunahankilic48/DICTIONARY-SOZLUK/blob/main/ENGLISH/SOLIDPrinciples.md)**
 - **[CQRS (Command Query Responsibility Segregation)](https://github.com/tunahankilic48/DICTIONARY-SOZLUK/blob/main/ENGLISH/CQRS.md)**
-- **MediatR Pattern**
+- **[MediatR Pattern](https://github.com/tunahankilic48/DICTIONARY-SOZLUK/blob/main/ENGLISH/MediatRPattern.md)**
 - **Decorator Pattern**
 - **Option Pattern**
 - **API Gateway**
