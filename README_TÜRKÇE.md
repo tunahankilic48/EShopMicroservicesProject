@@ -18,7 +18,7 @@
 ## 🧩 Tasarım İlkeleri ve Pattern'ler
 
 - **[SOLID Prensipleri](https://github.com/tunahankilic48/DICTIONARY-SOZLUK/blob/main/T%C3%9CRK%C3%87E/SOLIDPrensipleri.md)**
-- **CQRS (Command Query Responsibility Segregation)**
+- **[CQRS (Command Query Responsibility Segregation)](https://github.com/tunahankilic48/DICTIONARY-SOZLUK/blob/main/T%C3%9CRK%C3%87E/CQRS.md)**
 - **MediatR Pattern**
 - **Decorator Pattern**
 - **Option Pattern**
