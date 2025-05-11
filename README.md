@@ -17,7 +17,7 @@
 
 ## 🧩 Design Principles and Patterns
 
-- **SOLID Principles**
+- **[SOLID Principles](https://github.com/tunahankilic48/DICTIONARY-SOZLUK/blob/main/ENGLISH/SOLIDPrinciples.md)**
 - **CQRS (Command Query Responsibility Segregation)**
 - **MediatR Pattern**
 - **Decorator Pattern**
