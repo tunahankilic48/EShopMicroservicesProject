@@ -22,7 +22,7 @@
 - **[MediatR Pattern](https://github.com/tunahankilic48/DICTIONARY-SOZLUK/blob/main/ENGLISH/MediatRPattern.md)**
 - **[Decorator Pattern](https://github.com/tunahankilic48/DICTIONARY-SOZLUK/blob/main/ENGLISH/DecoratorPattern.md)**
 - **[Option Pattern](https://github.com/tunahankilic48/DICTIONARY-SOZLUK/blob/main/ENGLISH/OptionPattern.md)**
-- **API Gateway**
+- **[API Gateway](https://github.com/tunahankilic48/DICTIONARY-SOZLUK/blob/main/ENGLISH/APIGateway.md)**
 
 ---
 
