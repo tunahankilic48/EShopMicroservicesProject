@@ -21,7 +21,7 @@
 - **[CQRS (Command Query Responsibility Segregation)](https://github.com/tunahankilic48/DICTIONARY-SOZLUK/blob/main/ENGLISH/CQRS.md)**
 - **[MediatR Pattern](https://github.com/tunahankilic48/DICTIONARY-SOZLUK/blob/main/ENGLISH/MediatRPattern.md)**
 - **[Decorator Pattern](https://github.com/tunahankilic48/DICTIONARY-SOZLUK/blob/main/ENGLISH/DecoratorPattern.md)**
-- **Option Pattern**
+- **[Option Pattern](https://github.com/tunahankilic48/DICTIONARY-SOZLUK/blob/main/ENGLISH/OptionPattern.md)**
 - **API Gateway**
 
 ---
