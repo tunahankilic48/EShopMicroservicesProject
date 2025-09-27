@@ -62,3 +62,47 @@
 ### YARP API Gateway
 
 ---
+## 🧩 Mikroservis Genel Görünümü
+
+### 📦 Catalog Mikroservisi
+
+- C# 12 kullanarak ASP.NET Core 8 Minimal API'ler
+- Vertical Slice Mimarisi ve Özellik (Feature) Klasörleri ile yapılandırma
+- MediatR ile CQRS (Komut-Sorgu Sorumluluk Ayrımı) uygulaması
+- PostgreSQL üzerinde Marten ile Belge Tabanlı (Document DB) veri yönetimi
+- API uç noktalarının tanımı için Carter kütüphanesi
+- Loglama, Sağlık Kontrolleri ve Global Hata Yakalama (Exception Handling)
+
+### 🧺 Basket Mikroservisi
+
+- ASP.NET Core 8 Web API ile RESTful servisler
+- Redis ile dağıtık önbellek (distributed cache) kullanımı
+- Proxy, Decorator ve Cache-aside tasarım desenlerinin uygulanması
+- Ürün indirimi hesaplamak için gRPC üzerinden Discount servisini senkron olarak çağırma
+- Sepet onayı (BasketCheckout) olayını MassTransit ve RabbitMQ kullanarak yayınlama
+
+### 🎁 Discount Mikroservisi
+
+- Yüksek performanslı ASP.NET Core gRPC sunucusu
+- SQLite + EF Core ORM ile veritabanı işlemleri ve migration’lar
+- gRPC için Protobuf tabanlı mesaj tanımları
+
+### 🧾 Order Mikroservisi 
+
+- DDD (Domain-Driven Design), CQRS ve Temiz Mimari (Clean Architecture) prensipleri ile geliştirilmiş
+- Domain Olayları (Domain Events) ve Entegrasyon Olayları (Integration Events) kullanımı
+- EF Core Code-First yaklaşımı ile SQL Server üzerinde veritabanı işlemleri
+- RabbitMQ üzerinden gelen BasketCheckout olaylarını dinleyerek sipariş sürecini başlatma
+
+### 🚪 API Gateway
+
+- YARP (Yet Another Reverse Proxy) ile oluşturulmuş API Geçidi
+- Gateway Routing Pattern (Geçit Yönlendirme Deseni) uygulanması
+- Route (Yönlendirme), Cluster (Kümeleme), Path (Yol), Transform (Dönüştürme), Destinations (Hedefler) yapılandırmaları
+- Sabit Zaman Penceresi sınırlaması (FixedWindowLimiter) ile Rate Limiting uygulaması
+
+### 🛍️ WebUI
+
+- Bootstrap 4 ve Razor Pages ile ASP.NET Core MVC Web Uygulaması
+- Refit ve HttpClientFactory kullanarak API Gateway üzerinden mikroservislere erişim
+- Razor bileşenleri: View Components, TagHelpers, Model Binding, Validations
