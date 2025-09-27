@@ -61,3 +61,52 @@
 
 ### YARP API Gateway
 ---
+
+---
+
+## 🧩 Microservices Overview
+
+### 📦 Catalog Microservice
+
+- ASP.NET Core 8 Minimal APIs using C# 12
+- Vertical Slice Architecture & Feature Folders
+- CQRS with MediatR
+- Marten for PostgreSQL Document DB
+- Carter for API endpoint definitions
+- Logging, Health Checks, Global Exception Handling
+
+### 🧺 Basket Microservice
+
+- RESTful APIs with ASP.NET Core 8 Web API
+- Redis as distributed cache
+- Proxy, Decorator, Cache-aside design patterns
+- gRPC client for Discount service
+- Publishes checkout events to RabbitMQ using MassTransit
+
+### 🎁 Discount Microservice
+
+- High-performance gRPC service with ASP.NET Core
+- SQLite + EF Core ORM with migrations
+- Protobuf-based message contracts for gRPC
+
+### 🧾 Ordering Microservice
+
+- Implements DDD, CQRS, Clean Architecture
+- Domain Events, Integration Events
+- SQL Server with EF Core Code-First
+- Subscribes to checkout events via RabbitMQ
+
+### 🚪 API Gateway
+
+- Built with YARP (Yet Another Reverse Proxy)
+- Gateway Routing Pattern
+- Route clustering, transforms, and rate limiting
+
+### 🛍️ WebUI (ShoppingApp)
+
+- ASP.NET Core MVC (Razor Pages, Bootstrap 4)
+- Refit with HttpClientFactory for API communication
+- Razor components: View Components, TagHelpers, Model Binding, Validations
+
+---
+
